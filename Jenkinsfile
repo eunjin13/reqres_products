@@ -4,7 +4,7 @@ pipeline {
     environment {
         REGISTRY = 'user01.azurecr.io'
         IMAGE_NAME = 'product'
-        AKS_CLUSTER = 'user07-aks'
+        AKS_CLUSTER = 'user01-aks'
         RESOURCE_GROUP = 'user01-aks_group'
         AKS_NAMESPACE = 'default'
         AZURE_CREDENTIALS_ID = 'Azure-Cred'
